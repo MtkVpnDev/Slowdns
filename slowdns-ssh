@@ -133,7 +133,7 @@ echo -ne "\033[1;33mYOUR Domain/NS:\033[0m " && cat /etc/slowdns/infons
 echo ""
 echo -ne "\033[1;33mYOUR KEY:\033[0m " && cat /root/server.pub
 echo ""
-echo -ne "\033[1;33mCOMMAND TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/xamjyss143/slow-dns/main/scripts/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
+echo -ne "\033[1;33mCOMMAND TERMUX:\033[0m curl -sO https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/slow/slowdns && chmod +x slowdns && ./slowdns " && cat /etc/slowdns/infons /root/server.pub
 echo ""
 echo -e "\033[1;33m YOUR KEY is saved in the file /root/server.pub\033[0m"
 echo -e "\033[1;33mKeep it in a safe place, you might need it in the future!\033[0m"
