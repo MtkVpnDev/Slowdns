@@ -44,8 +44,8 @@ fun_att () {
 apt install ncurses-utils -y
 mkdir /etc/slowdns
 cd /etc/slowdns
-wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main; chmod +x dns-server
-wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main; chmod +x remove-slow
+wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/dns-server; chmod +x dns-server
+wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/remove-slow; chmod +x remove-slow
 wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/slowdns-info; chmod +x slowdns-info
 wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/slowdns-drop; chmod +x slowdns-drop
 wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/slowdns-ssh; chmod +x slowdns-ssh
