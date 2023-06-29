@@ -61,9 +61,6 @@ wget https://raw.githubusercontent.com/MtkVpnDev/Slowdns/main/rc.local
 chmod +x /etc/rc.local
 systemctl enable rc-local
 systemctl start rc-local
-systemctl restart hysteria-server.service
-sudo systemctl enable teamkidlat
-sudo systemctl start teamkidlat.service
 }
 fun_bar 'ipt_set'
 clear
